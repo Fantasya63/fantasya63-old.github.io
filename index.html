@@ -7,30 +7,38 @@
 
         <title>Happy New Year BSCS-1A!</title>
         <link rel="stylesheet" href="style.css">
+        <script src="scripts/sound.js"></script>
     </head>
 
     <body>
-        <div class="bg-image"></div>
-        
-        <div class="folded-paper">
-            <div class="cardFront"><h3 class="happy">HAPPY NEW YEAR!</h3>
-            <div class="balloons">
-              <div class="balloonOne"></div>
-              <div class="balloonTwo"></div>
-              <div class="balloonThree"></div>
-              <div class="balloonFour"></div>
-            </div>
-            </div>
-              <div class="cardInside">
-                <h3 class="back">HAPPY NEW YEAR</h3>
-                <p>Hello miss ma'ammm!,</p>
-                <p>
-                  Boiler Plate Message bleh HAHAHAHA.
-                  Hello Euniceeeee!, Audrayyyyy!, Seahhhhh! HAHAHAHA
-                  ADVANCED HAPPY NEW YEAR!!!
-                </p>
-                <p class="name">Hoshi</p>
-              </div>
-            </div>
+      <div class="bg-image"></div>
+      
+      <div onmouseleave="PlayPageTurn()" class="folded-paper" onmouseover="PlayPageTurn()">
+        <div class="cardFront">
+          <div class="no-backface">
+            <h3 class="happy">HAPPY NEW YEAR!</h3>
+          </div>
+          
+          <div class="balloons">
+            <div class="balloonOne"></div>
+            <div class="balloonTwo"></div>
+            <div class="balloonThree"></div>
+            <div class="balloonFour"></div>
+          </div>
+        </div>
+        <div class="cardInside">
+          <h3 class="back">HAPPY NEW YEAR</h3>
+          <p>Hello miss ma'ammm!,</p>
+          <p>
+            Happy New Year! Hahaha 
+          </p>
+          <p class="name">Hoshi</p>
+        </div>
+      </div>
+
+      <input type="checkbox" id="start">
+      <label for="start" id="click-to-start" onclick="PlayBackground()">
+        <h2>Happy New Year!</h2>
+      </label>
     </body>
 </html>
