@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Britanny Signature';
+    src: url('fonts/FontsFree-Net-BrittanySignature.ttf');
+}
+
+.vignette{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: radial-gradient(106.11% 106.11% at 50% 50%, rgba(0, 0, 0, 0) 38.54%, #050912 78.65%);
+}
+
+.stars{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.s-yellow{
+    color: #FBCD6B;
+}
+
+
+#s-happy{
+    padding: 0;
+    margin: 0;
+    font-family: 'Britanny Signature';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+}
+
+#s-new-year{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 360;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.s-flex-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+}
+
+.s-texts{
+    width: 500px;
+}
+
+#click-to-start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #0B1933 0%, #050912 100%);
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    transition: 1.0s;
+    bottom: 0px;
+    right: 0px;
+  }
+
+#click-to-start{
+    bottom: 0px;
+    right: 0px;
+  }
+
+  #start:checked ~ #click-to-start{
+    pointer-events: none;
+    opacity: 0%;
+  }

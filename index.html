@@ -5,14 +5,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Happy New Year BSCS-1A!</title>
+        <title>Happy New Year Miss Ma'am!</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="start.css">
+        <link rel="stylesheet" href="forest.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <script src="scripts/sound.js"></script>
     </head>
 
     <body>
       <div class="bg-image"></div>
-      
+      <div id="forest-1"></div>
+      <div id="forest-2"></div>
+
+      <div id="bush-2-1"></div>
+      <img src="img/people.png" id="people">
+
       <div onmouseleave="PlayPageTurn()" class="folded-paper" onmouseover="PlayPageTurn()">
         <div class="cardFront">
           <div class="no-backface">
@@ -30,7 +38,7 @@
           <h3 class="back">HAPPY NEW YEAR</h3>
           <p>Hello miss ma'ammm!,</p>
           <p>
-            Happy New Year! Hahaha 
+            "Helloo Miss Ma'ammmmm! Happy New Year! I hope this year brings you all the happiness, success, and love you deserve. Here's to an amazing new year filled with endless possibilities and endless joy. Wishing you all the best in the coming year.
           </p>
           <p class="name">Hoshi</p>
         </div>
@@ -38,7 +46,19 @@
 
       <input type="checkbox" id="start">
       <label for="start" id="click-to-start" onclick="PlayBackground()">
-        <h2>Happy New Year!</h2>
+        <!-- <div class="ribbon" id="r1"></div> -->
+        <div class="frame">
+          <div class="frame-line"></div>
+        </div>
+
+        <div class="vignette"></div>
+        <img src="img/stars.svg" alt="a svg of stars", class="stars">
+        <img src="img/Fireworks.png" alt="Fireworks" id="f1" class="fireworks">
+        <img src="img/Fireworks.png" alt="Fireworks" id="f2" class="fireworks">
+        <img src="img/Ribbon.png" alt="ribbon" id="r1" class="ribbon">
+        <img src="img/Ribbon.png" alt="ribbon" id="r2" class="ribbon">
+
+        <img src="img/s-texts.svg" alt="Happy New Year BSCS 1A!" class="s-texts">
       </label>
     </body>
 </html>

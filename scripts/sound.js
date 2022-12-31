@@ -2,13 +2,13 @@ const PageTurnSounds = [
     new Audio('sounds/sfx/page-flip-10.mp3'),
     new Audio('sounds/sfx/page-flip-12.mp3')
 ]
-
-let playlistAudio = new Audio();
-let i = 0;
 const playlist = [
     'sounds/music/Aakash Gandhi - Just Stay (Romantic).mp3',
     'sounds/music/Aakash Gandhi - Dreamland (Calm).mp3',
 ]
+let playlistAudio = new Audio(playlist[0]);
+let i = 0;
+
 
 playlistAudio.addEventListener('ended', function () {
     i = ++i < playlist.length ? i : 0;
