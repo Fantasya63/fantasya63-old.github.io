@@ -1,5 +1,6 @@
 #forest-1 {
     position: fixed;
+    bottom: 0;
     width: 100%;
     height: 100%;
     background: url('img/forest-1.png');
@@ -9,15 +10,16 @@
 
 #forest-2{
     position: fixed;
-    width: 100%;
-    height: 100%;
+    bottom: 0px;
+    width: 100vw;
+    height: 100vh;
     background: url('img/forest-2.png');
     background-size: cover;
     background-position: center;
 }
 
 #bush-2-1{
-    position: absolute;
+    position: fixed;
     width: 512px;
     height: 277px;
     right: -242px;
@@ -28,9 +30,8 @@
 }
 
 #people {
-    position: absolute;
-    width: 352px;
-    height: 253px;
-    left: 425px;
-    bottom: 0px;
+    position: fixed;
+    height: 25vmin;
+    left: 20vw;
+    bottom: 0;
 }
